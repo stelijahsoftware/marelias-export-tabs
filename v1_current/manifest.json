@@ -1,0 +1,26 @@
+{
+   "browser_action": {
+      "browser_style": true,
+      "default_icon": "img/128x128.png",
+      "default_popup": "popup/popup.html",
+      "default_title": "__MSG_appButtonDesc__"
+   },
+   "default_locale": "en_US",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "img/128x128.png",
+      "16": "img/16x16.png",
+      "32": "img/32x32.png",
+      "64": "img/64x64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjxwy0VMKrBAuLsifQIg5lNwg9rEeLVAZ6/tkxiq7zEqNw7I+fCa6NNHOlj3uN9JlRB5vwGjHz4u1GqrbVSdvT5C/L/8K3DeVKNpFItt42fAxw0woB5xY1ldOhmrA7y5u6gdN95rPRqvEqgiPSNIDGDyILNKhg0tcXiZUrqAXSbhHlI0da6Vtq/uV5EtySD+JgfeXrUGtjOW0+v6ylHsf3S+fnPOKhaID2KJ5C+ScuUBwWyVt2GDBd9KtENk7Qs2E2DJg7qjr4MsQiXQqPMF8+ps3LtRuCSM1UKtJl58rdQCwD+jwe3i8/eWF8hTwZht8MnHgfcFNnsZ8FY7RzCLAuQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "options_ui": {
+      "browser_style": true,
+      "page": "options/options.html"
+   },
+   "permissions": [ "clipboardWrite", "notifications", "storage", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.2.13"
+}

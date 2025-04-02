@@ -1,0 +1,77 @@
+{
+   "appButtonDesc": {
+      "message": "Export Tabs URLs"
+   },
+   "appDesc": {
+      "message": "Save a list of all open tabs into a text file."
+   },
+   "appName": {
+      "message": "Export Tabs URLs"
+   },
+   "copiedToClipboard": {
+      "message": "The list has successfully been copied to your clipboard."
+   },
+   "notCopiedToClipboard": {
+      "message": "An error has occured while trying to copy the list to your clipboard."
+   },
+   "optionsButtonResetFormat": {
+      "message": "Reset"
+   },
+   "optionsButtonResetHeader": {
+      "message": "Reset"
+   },
+   "optionsCustomHeader": {
+      "message": "Custom header"
+   },
+   "optionsCustomHeaderDescription": {
+      "message": "\u003Cp>You may define a custom header here.\u003C/p>\u003Cp>You can use any combination of characters and the following special blocks:\u003C/p>\u003Cul>\u003Cli>\u003Ccode>{num-tabs}\u003C/code>: number of tabs\u003C/li>\u003Cli>\u003Ccode>\\r\\n\u003C/code>: new line\u003C/li>\u003C/ul>\u003Cp>Example: \u003Ccode>From Export Tabs URLs (# links: {num-tabs})\u003C/code>\u003C/p>"
+   },
+   "optionsCustomHeaderPlaceholder": {
+      "message": "none"
+   },
+   "optionsFilterTabs": {
+      "message": "Enable tabs filtering"
+   },
+   "optionsFilterTabsDescription": {
+      "message": "\u003Cp>This option adds a filtering feature to Export Tabs URLs.\u003C/p>\u003Cp>Both the title and URL are searched against (even if not displayed).\u003C/p>\u003Cp>You can use \u003Ca href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions#Using_special_characters\">regular expressions\u003C/a>.\u003C/p>\u003Cp>Example:\u003C/p>\u003Cul>\u003Cli>\u003Ccode>fe?ather\u003C/code>: matches both father and feather\u003C/li>\u003Cli>\u003Ccode>(stackoverflow|github).com\u003C/code>: matches both stackoverflow.com and github.com\u003C/li>\u003C/ul>"
+   },
+   "optionsFormatCustom": {
+      "message": "Custom format"
+   },
+   "optionsFormatCustomDescription": {
+      "message": "\u003Cp>You can define a custom format instead of the default \"Include titles\" one.\u003C/p>\u003Cp>You can use any combination of characters and the following special blocks:\u003C/p>\u003Cul>\u003Cli>\u003Ccode>{title}\u003C/code>: title of a tab\u003C/li>\u003Cli>\u003Ccode>{url}\u003C/code>: URL of a tab\u003C/li>\u003Cli>\u003Ccode>{window-id}\u003C/code>: ID of the window containing a tab\u003C/li>\u003Cli>\u003Ccode>\\r\\n\u003C/code>: new line\u003C/li>\u003C/ul>\u003Cp>Example: \u003Ccode>[{title}]({url})\\r\\n\u003C/code>\u003C/p>"
+   },
+   "optionsFormatCustomPlaceholder": {
+      "message": "none"
+   },
+   "optionsIgnoreNonHTTP": {
+      "message": "Ignore non-HTTP(S) URLs"
+   },
+   "optionsIgnoreNonHTTPDescription": {
+      "message": "\u003Cp>This option prevent Export Tabs URLs from listing tabs whose URL scheme is different from \u003Ccode>http://\u003C/code> or \u003Ccode>https://\u003C/code>.\u003C/p>"
+   },
+   "optionsIgnorePinned": {
+      "message": "Ignore pinned tabs"
+   },
+   "optionsIgnorePinnedDescription": {
+      "message": "\u003Cp>This option prevent Export Tabs URLs from listing pinned tabs.\u003C/p>"
+   },
+   "popupButtonCopy": {
+      "message": "Copy to clipboard"
+   },
+   "popupButtonExport": {
+      "message": "Export as file"
+   },
+   "popupFilterTabsPlaceholder": {
+      "message": "Filter tabs"
+   },
+   "popupLabelFormatCustom": {
+      "message": "Custom format"
+   },
+   "popupLabelFormatTitles": {
+      "message": "Include titles"
+   },
+   "popupLimitWindow": {
+      "message": "Limit to current window"
+   }
+}
