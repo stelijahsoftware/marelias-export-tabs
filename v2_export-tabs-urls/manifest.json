@@ -10,7 +10,7 @@
         "128": "img/icon.svg"
     },
     "action": {
-        "default_icon": "img/icon.svg",
+        "default_icon": "img/icon.png",
         "default_title": "__MSG_appButtonDesc__",
         "default_popup": "popup/popup.html",
         "theme_icons": [{
