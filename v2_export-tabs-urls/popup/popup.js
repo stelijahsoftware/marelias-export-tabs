@@ -101,7 +101,7 @@ function updatePopup () {
       var nbFilterMatch = 0
       var userInput = popupFilterTabs.value
 
-      if (popupFormat.checked) format = '{title}\r\n{url}\r\n\r\n'
+      if (popupFormat.checked) format = '{url} # {title}\r\n'
 
       if (optionsFormatCustom) {
         popupLabelFormatTitles.classList.add('hidden')
